@@ -31,11 +31,11 @@
 }
 
 body {
-    background-color: #E90802;
+    background-color: #592A8A;
     font-family: Piedmont;
     font-size: 30pt;
     overflow-x: hidden;
-    color: black;
+    color: #FEC923;
 }
 
 html {
@@ -64,7 +64,7 @@ img {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #E90802
+    background-color: #592A8A
 }
 
 .logo {
@@ -78,7 +78,7 @@ img {
     display: flex;
     top: 0;
     z-index: 1001;
-    background-color: #E90802;
+    background-color: #592A8A;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -86,7 +86,7 @@ img {
 
 .menu a {
     text-decoration: none;
-    color: black;
+    color: #FEC923;
     transition: color 0.3s ease;
 }
 
@@ -112,7 +112,7 @@ img {
 }
 
 .image-container {
-    background-color: whitesmoke;
+    background-color: white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -158,7 +158,7 @@ img {
 }
 
 .image-text p {
-    color: #E90802;
+    color: #FEC923;
 }
 
 .shop-section {
@@ -178,11 +178,11 @@ img {
 .contact-section {
     display: flex;
     flex-direction: column;
-    background-color: #E90802;
+    background-color: #592A8A;
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: white;
     width: 100%;
     height: 120vh;
     overflow: visible;
@@ -241,7 +241,7 @@ select {
 button {
     padding: 10px;
     color: white;
-    background-color: black;
+    background-color: #FEC923;
     border: none;
     cursor: pointer;
     margin-top: 10px;
