@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 @font-face {
@@ -184,17 +183,19 @@ img {
     justify-content: center;
     color: #FEC923;
     width: 100%;
-    height: 120vh;
+    min-height: 100vh;
+    height: auto;
     overflow: visible;
     position: relative;
     z-index: 1;
+    padding: 80px 20px;
 }
 
 .contact-form-section {
     width: 100%;
     padding-top: 100px;
     box-sizing: border-box;
-    overflow-y: auto;
+    overflow: visible;
 }
 
 form {
